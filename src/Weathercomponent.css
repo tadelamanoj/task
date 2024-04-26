@@ -1,0 +1,72 @@
+.temperature-data-grid {
+    border: 1px solid #ccc; 
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color:darkorange; 
+  }
+  
+  .temperature-data-grid h2 {
+    margin-top: 0;
+    border-bottom: 2px solid #ccc; 
+  }
+  
+  /* .temperature-section {
+    padding-top: 10px; 
+  } */
+  
+  .mmgrid {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px; 
+    border-top: 1px solid #ccc; 
+  }
+  
+  .mmgrid p {
+    margin: 5px 0; 
+    padding: 0;
+  }
+  
+  .weather-table-component {
+    padding: 20px;
+  }
+  
+  .weather-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+ 
+  
+  .wrapcomponent {
+    margin-top: 20px;
+  }
+  .weatherheader {
+    color: darkorange;
+  }
+  .buttobg{
+    background-color: darkorange;
+  }
+  
+  @media (max-width: 767px) {
+    .wrapcomponent {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .wrapcomponent {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .temperature-data-grid {
+      margin-right: 20px; 
+    }
+  }
+
+  
